@@ -1,0 +1,67 @@
+input {
+    outline: none;
+    box-shadow: none;
+}
+
+a {
+    color: black;
+    transition: 0.3s all ease-in-out !important;
+    height: 40px;
+}
+.search-input {
+    width: 50%;
+    height: 45px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+
+.without-login {
+    background-color: tomato;
+}
+
+.without-login:hover {
+    background-color: green;
+}
+
+.with-login {
+    background-color: greenyellow;
+}
+
+.with-login:hover {
+    background-color: red;
+}
+
+.avatar {
+    height: 40px;
+    border-radius: 100%;
+}
+
+.plus {
+    padding-left: 10px;
+    height: 33px;
+    width: 35px;
+    border-radius: 100%;
+}
+.my-checkbox{
+    margin-left: 2rem;
+}
+body {
+    font: small sans-serif;
+}
+#page {
+    margin-left: 200px;
+}
+#maincontent {
+    float: right;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+#menuleftcontent{
+    float: left;
+    width: 200px;
+    margin-left: -200px;
+    background-color: #CCCCCC;
+}
+#clearingdiv {
+    clear: both;
+}
